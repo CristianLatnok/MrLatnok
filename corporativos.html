@@ -1,0 +1,136 @@
+<html>
+	<head>
+	<title>Computadores Hogar</title>
+		<script language="javascript">
+		function ver(){
+			if(document.f1.se[0].checked){
+			document.f1.info.value="El equipo ThinkCentre Lenovo viene con un tamaño compacto, para un uso versátil, fácil de ubicar en un escritorio y puede hacer procesos avanzados propios para cualquier empresa. ";
+			document.f1.mod.value="Lenovo ThinkCentre";
+			document.f1.cpu.value="Intel Core i5 7400";
+			document.f1.mem.value="8GB";
+			document.f1.dd.value="500GB";
+			document.f1.so.value="Windows 10 Professional 64 Bits";
+			document.f1.im1.width=220;
+			document.f1.im1.height=220;
+			document.f1.im2.width=0;
+			document.f1.im2.height=0;
+			document.f1.info2.value="El equipo ProDesk HP viene con un tamaño compacto, para un uso versátil, fácil de ubicar en un escritorio y puede hacer procesos avanzados propios para cualquier empresa. ";
+			document.f1.mod2.value="HP ProDesk";
+			document.f1.cpu2.value="Intel Core i5 7200";
+			document.f1.mem2.value="16GB";
+			document.f1.dd2.value="1TB";
+			document.f1.so2.value="Windows 10 Professional 64 Bits";
+			document.f1.im3.width=220;
+			document.f1.im3.height=220;
+			document.f1.im4.width=0;
+			document.f1.im4.height=0;
+			}
+			else{
+				if(document.f1.se[1].checked){
+				document.f1.info.value="Las Estaciones Graficas son perfectas para trabajos duros. Este equipo puede no solo mantenerse encendido por mucho tiempo, sino que funciona muy bien para desarrollos multimedia, gracias a tu tarjeta gráfica. ";
+				document.f1.mod.value="HP GraphicStation Z600";
+				document.f1.cpu.value="Intel Xeon Quad Core";
+				document.f1.mem.value="16GB";
+				document.f1.dd.value="1TB";
+				document.f1.so.value="Windows 10 Professional 64 Bits";
+				document.f1.im1.width=0;
+				document.f1.im1.height=0;
+				document.f1.im2.width=220;
+				document.f1.im2.height=220;
+				document.f1.info2.value="Este equipo Todo en Uno, es una buena opcion para trabajos empresariales, de tipo administrativos. ";
+				document.f1.mod2.value="Compaq AIO Q6000";
+				document.f1.cpu2.value="Intel Core i5 7500";
+				document.f1.mem2.value="16GB";
+				document.f1.dd2.value="500GB";
+				document.f1.so2.value="Windows 10 Professional 64 Bits";
+				document.f1.im3.width=0;
+				document.f1.im3.height=0;
+				document.f1.im4.width=220;
+				document.f1.im4.height=220;
+				}
+			}
+		}
+		</script>
+	</head>
+	<body bgcolor=white>
+	<center><h2>"Computadores para Empresa"</h2></center>
+	<blockquote><blockquote>
+	<p align=justify>Nuestra línea de equipos corporativos, son equipos que son de procesos avanzados y una gama de equipos de alto desempeño gráfico y procesos matemáticos. Acordes a la necesidad de cualquier empresa. <br><br> 
+	Elige el tuyo</p>
+		<form method=post name=f1 action=ver>
+			<table align=center width=95% height=10%>
+				<tr>
+					<td colspan=2 width=20% height=10%><p align=left>Selecciona que tipo de computador que deseas: </p></td>
+					<td width=20% height=10%><p align=left><input type=radio name=se onclick=ver()>Mini Tower</p></td>
+					<td width=20% height=10%><p align=left><input type=radio name=se onclick=ver()>Pc Alto Desempeño</p></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Modelo: </p></td>
+					<td width=20% height=10%><textarea name=mod cols=30 rows=0 style="border: none;"></textarea></td>
+					<td colspan=2 rowspan=6 width=10% height=20%><center><img src=prodt/corp1.png width=0 height=0 id=im1>
+																		<img src=prodt/corp2.png width=0 height=0 id=im2>
+																		</center></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Procesador: </p></td>
+					<td width=20% height=10%><textarea name=cpu cols=30 rows=0 style="border: none;"></textarea></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Memoria: </p></td>
+					<td width=20% height=10%><textarea name=mem cols=30 rows=0 style="border: none;"></textarea></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Disco Duro: </p></td>
+					<td width=20% height=10%><textarea name=dd cols=30 rows=0 style="border: none;"></textarea></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Sistema Operativo: </p></td>
+					<td width=20% height=10%><textarea name=so cols=30 rows=0 style="border: none;"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan=2 width=20% height=40%><textarea name=info cols=70% rows=5 style="border: none;"></textarea></td>
+				</tr>
+			</table>
+			<br><br>
+			<table align=center width=95% height=10%>
+				<tr>
+					<td colspan=2 width=20% height=10%></td>
+					<td width=20% height=10%></td>
+					<td width=20% height=10%></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Modelo: </p></td>
+					<td width=20% height=10%><textarea name=mod2 cols=30 rows=0 style="border: none;"></textarea></td>
+					<td colspan=2 rowspan=6 width=10% height=20%><center><img src=prodt/corp3.png width=0 height=0 id=im3>
+																		<img src=prodt/corp4.png width=0 height=0 id=im4>
+																		</center></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Procesador: </p></td>
+					<td width=20% height=10%><textarea name=cpu2 cols=30 rows=0 style="border: none;"></textarea></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Memoria: </p></td>
+					<td width=20% height=10%><textarea name=mem2 cols=30 rows=0 style="border: none;"></textarea></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Disco Duro: </p></td>
+					<td width=20% height=10%><textarea name=dd2 cols=30 rows=0 style="border: none;"></textarea></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Sistema Operativo: </p></td>
+					<td width=20% height=10%><textarea name=so2 cols=30 rows=0 style="border: none;"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan=2 width=20% height=40%><textarea name=info2 cols=70% rows=5 style="border: none;"></textarea></td>
+				</tr>
+			</table>
+		</form>
+	</body>	
+		<br>
+		<br>
+		<br>
+		<p align=right>Latnok Editores All Rigth Reserved</p>
+	
+	
+</html>	

@@ -1,0 +1,133 @@
+<html>
+	<head>
+	<title>Computadores Hogar</title>
+		<script language="javascript">
+		function ver(){
+			if(document.f1.se[0].checked){
+			document.f1.info.value="Este equipo Asus ofrece un gran desempeño, además tiene un diseño único y elegante, que permite a los usuarios una gran experiencia en su pantalla de 22” y resolución a 1080P. El equipo trae pre-instalada una licencia de Offices 365 por un año. ";
+			document.f1.mod.value="Asus AIO";
+			document.f1.cpu.value="Intel Core i5 7200";
+			document.f1.mem.value="8GB";
+			document.f1.dd.value="1TB";
+			document.f1.so.value="Windows 10 Home 64 Bits";
+			document.f1.im1.width=220;
+			document.f1.im1.height=220;
+			document.f1.im2.width=0;
+			document.f1.im2.height=0;
+			document.f1.info2.value="Este equipo HP ofrece un gran desempeño, además tiene un diseño moderno con pantalla tactil, que permite a los usuarios una gran experiencia en su pantalla de 21” y resolución a 1080P. El equipo trae pre-instalada una licencia de Offices 365 por un año. ";
+			document.f1.mod2.value="HP AIO Envy";
+			document.f1.cpu2.value="Intel Core i7 7200";
+			document.f1.mem2.value="16GB";
+			document.f1.dd2.value="1TB";
+			document.f1.so2.value="Windows 10 Home 64 Bits";
+			document.f1.im3.width=220;
+			document.f1.im3.height=220;
+			document.f1.im4.width=0;
+			document.f1.im4.height=0;
+			}
+			else{
+				if(document.f1.se[1].checked){
+				document.f1.info.value="Este equipo tipo escritorio es bastante compacto, tiene tecnología Intel que le permite ajustar consumo eléctrico, además el diseño de la Micro Tower se acopla muy bien a espacios reducidos.  ";
+				document.f1.mod.value="HP Pavilion Micro";
+				document.f1.cpu.value="Intel Core i5 7200";
+				document.f1.mem.value="8GB";
+				document.f1.dd.value="1TB";
+				document.f1.so.value="Windows 10 Home 64 Bits";
+				document.f1.im1.width=0;
+				document.f1.im1.height=0;
+				document.f1.im2.width=220;
+				document.f1.im2.height=220;
+				document.f1.info2.value="Este equipo tipo escritorio con tecnología AMD es una muy buena opción para juegos y entretenimiento. La  tecnología que trae incorpora una tarjeta aceleradora de video ATI Radeón que le permite dar un buen desempeño gráfico, además es completamente actualizable. ";
+				document.f1.mod2.value="Gateway Desktop";
+				document.f1.cpu2.value="AMD A12 Radeon";
+				document.f1.mem2.value="8GB";
+				document.f1.dd2.value="500GB";
+				document.f1.so2.value="Windows 10 Home 64 Bits";
+				document.f1.im3.width=0;
+				document.f1.im3.height=0;
+				document.f1.im4.width=220;
+				document.f1.im4.height=220;
+				}
+			}
+		}
+		</script>
+	</head>
+	<body bgcolor=white>
+	<center><h2>"Computadores para Hogar"</h2></center>
+	<blockquote><blockquote>
+	<p align=justify>Nuestra línea de equipos para el hogar ofrece muy buena capacidad para almacenamiento de tu información, multimedia, creación de documentos como cartas, hojas de cálculo, navegación en Internet, y demás.<br><br> 
+	Elige el tuyo</p>
+		<form method=post name=f1 action=ver>
+			<table align=center width=95% height=10%>
+				<tr>
+					<td colspan=2 width=20% height=10%><p align=left>Seleccione que tipo de computador desea: </p></td>
+					<td width=20% height=10%><p align=left><input type=radio name=se onclick=ver()>Todo en Uno</p></td>
+					<td width=20% height=10%><p align=left><input type=radio name=se onclick=ver()>Pc Escritorio</p></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Modelo: </p></td>
+					<td width=20% height=10%><textarea name=mod cols=30 rows=0 style="border: none;"></textarea></td>
+					<td colspan=2 rowspan=6 width=10% height=20%><center><img src=prodt/hogar1.png width=0 height=0 id=im1>
+																		<img src=prodt/hogar2.png width=0 height=0 id=im2>
+																		</center></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Procesador: </p></td>
+					<td width=20% height=10%><textarea name=cpu cols=30 rows=0 style="border: none;"></textarea></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Memoria: </p></td>
+					<td width=20% height=10%><textarea name=mem cols=30 rows=0 style="border: none;"></textarea></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Disco Duro: </p></td>
+					<td width=20% height=10%><textarea name=dd cols=30 rows=0 style="border: none;"></textarea></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Sistema Operativo: </p></td>
+					<td width=20% height=10%><textarea name=so cols=30 rows=0 style="border: none;"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan=2 width=20% height=40%><textarea name=info cols=70% rows=5 style="border: none;"></textarea></td>
+				</tr>
+			</table>
+			<br><br>
+			<table align=center width=95% height=10%>
+				<tr>
+					<td colspan=2 width=20% height=10%></td>
+					<td width=20% height=10%></td>
+					<td width=20% height=10%></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Modelo: </p></td>
+					<td width=20% height=10%><textarea name=mod2 cols=30 rows=0 style="border: none;"></textarea></td>
+					<td colspan=2 rowspan=6 width=10% height=20%><center><img src=prodt/hogar3.png width=0 height=0 id=im3>
+																		<img src=prodt/hogar4.png width=0 height=0 id=im4>
+																		</center></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Procesador: </p></td>
+					<td width=20% height=10%><textarea name=cpu2 cols=30 rows=0 style="border: none;"></textarea></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Memoria: </p></td>
+					<td width=20% height=10%><textarea name=mem2 cols=30 rows=0 style="border: none;"></textarea></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Disco Duro: </p></td>
+					<td width=20% height=10%><textarea name=dd2 cols=30 rows=0 style="border: none;"></textarea></td>
+				</tr>
+				<tr>
+					<td width=20% height=10%><p align=left>Sistema Operativo: </p></td>
+					<td width=20% height=10%><textarea name=so2 cols=30 rows=0 style="border: none;"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan=2 width=20% height=40%><textarea name=info2 cols=70% rows=5 style="border: none;"></textarea></td>
+				</tr>
+			</table>
+		</form>
+		
+	</body>	
+	
+	
+</html>	

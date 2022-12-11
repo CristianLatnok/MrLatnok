@@ -1,0 +1,49 @@
+.mark-banner{
+	width: 940px;
+	height: 260px;
+		
+	background-size: 100% 100%; 
+	
+	animation-name: banner;
+	animation-duration: 18s;
+	animation-iteration-count: infinite; 
+	
+}
+
+	@keyframes banner {
+			1%, 24% {
+				background-image: url(img/baner-1.png);
+				opacity: 1;
+			}
+			
+			25%, 26% {
+				opacity: 0.1;
+			}
+			
+			27%, 49% {
+				background-image: url(img/baner-2.png);
+				opacity: 1;
+			}
+			
+			50%, 51% {
+				opacity: 0.1;
+			}
+			
+			52%, 74% {
+				background-image: url(img/baner-3.png);
+				opacity: 1;
+			}
+			
+			75%, 76% {
+				opacity: 0.1;
+			}
+			
+			77%, 98% {
+				background-image: url(img/baner-4.png);
+				opacity: 1;
+			}
+			
+			99%, 100% {
+				opacity: 0.1;
+			}
+	}
